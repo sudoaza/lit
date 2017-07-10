@@ -12,11 +12,7 @@ There are several tools for different platforms, for GNU/Linux we have [esptool]
 
 ## Connect to lua console
 
-    picocom /dev/ttyUSB0 --b 115200 --omap crcrlf --imap crcrlf
-
-or
-
-    bin/tty
+    screen /dev/ttyUSB0
 
 ### Try it!
 
