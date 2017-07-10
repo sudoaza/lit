@@ -21,7 +21,7 @@ or
 ### Try it!
 
 ```lua
-    tmr.alarm(2, 5000, 1, function() print("Hello human operator!") end )
+tmr.alarm(2, 5000, 1, function() print("Hello human operator!") end )
 ```
 
 ## Upload lua scripts
