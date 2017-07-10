@@ -33,7 +33,7 @@ is simple enough. **Disconnect from the console** or it will fail.
 
 or
 
-  bin/send_lua init.lua
+    bin/send_lua init.lua
 
 ## Crashes and hangs
 
