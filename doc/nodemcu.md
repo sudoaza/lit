@@ -24,7 +24,7 @@ or
     tmr.alarm(2, 5000, 1, function() print("Hello human operator!") end )
 ```
 
-# Upload lua scripts
+## Upload lua scripts
 
 There are again several tools, [luatool](https://github.com/4refr0nt/luatool)
 is simple enough. **Disconnect from the console** or it will fail.
@@ -35,7 +35,7 @@ or
 
   bin/send_lua init.lua
 
-# Crashes and hangs
+## Crashes and hangs
 
 If you enter a loop or get repeated crashes you may be unable to upload a new
 script and need to re-flash the firmware. To avoid this init.lua should have a
