@@ -1,0 +1,2 @@
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$DIR/luatool/luatool.py -f wait.lua -t init.lua -p /dev/ttyUSB0
